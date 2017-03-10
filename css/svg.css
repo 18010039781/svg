@@ -1,0 +1,27 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+p{margin: 0 0 10px;}
+.pathStyle{
+    stroke:#000000;
+    stroke-width:5px;
+    fill:none
+}
+#svg{position: relative;}
+.svg-text-window{position: absolute;top:20px;right:10px;left: 50px;height: 0px;overflow: visible;}
+
+.mouseLookDiv{padding: 10px 0px 0px 10px;position: absolute;left: 0px;top: 0px;width: 140px;background: #ffffff;box-shadow: 0 4px 11px #ccc;color:#A7CD7A;margin-left: -77px;margin-top: -89px;font-size: 14px;}
+.mouseLookDiv.out{color:#F9B97B;}
+.mouseLookDiv>p{margin-bottom:5px;}
+.mouseLookDiv>p>label{font-weight: bold;}
+.mouseLookDiv>p>span{font-weight: normal;}
+.mouseLookDiv:after{position: absolute;content: " ";bottom:-6px;left: 50%;border-top: 6px solid #fff;border-left: 6px solid transparent;border-right: 6px solid transparent;box-shadow: 0 7px 11px #ccc;}
